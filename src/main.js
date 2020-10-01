@@ -1,5 +1,6 @@
-import api from './api';
+import getUsers from './getUsers';
 
+console.log(getUsers())
 class App {
     constructor() {
         this.repositories = [];
